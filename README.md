@@ -12,7 +12,7 @@ Paper: [NeuSample: Neural Sample Field for Efficient View Synthesis](https://arx
 <img src="https://github.com/20throokie/JNeuSample/blob/master/imgs/samplefield.png" width="600px">  
 
 ## Training 
-> mpirun -np 4 python main.py --stage train
+`mpirun -np 4 python main.py --stage train`
 
 ## Comparison
 <img src="https://github.com/20throokie/JNeuSample/blob/master/imgs/table1.png" width="1000px">  
