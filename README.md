@@ -16,9 +16,13 @@ Paper: [NeuSample: Neural Sample Field for Efficient View Synthesis](https://arx
 </p>
 
 ## Training 
-```python
-mpirun -np 4 python main.py --stage train --obj_class lego
-```
+
+<details>
+  <pre><code>
+    mpirun -np 4 python main.py --stage train --obj_class lego
+  </code></pre>
+</details>
+
 Some models are provided in folder **pretrained**
 ## Comparison
 Experiment conducted on one RTX3090 GPU takes around 18 hours for each class.  
