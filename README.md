@@ -17,11 +17,9 @@ Paper: [NeuSample: Neural Sample Field for Efficient View Synthesis](https://arx
 
 ## Training 
 
-<details>
-  <pre><code>
-    mpirun -np 4 python main.py --stage train --obj_class lego
-  </code></pre>
-</details>
+```
+mpirun -np 4 python main.py --stage train --obj_class lego
+```
 
 Some models are provided in folder **pretrained**
 ## Comparison
@@ -35,6 +33,7 @@ Experiment conducted on one RTX3090 GPU takes around 18 hours for each class.
 * “Inf. Cost” denotes the relative inference time cost compared with NeRF. <br>
 * "Ne" of NeuSample denotes the sample number of the extracted sample field.  
 
+  
 ***   
 
 
