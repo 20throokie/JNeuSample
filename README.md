@@ -27,6 +27,7 @@ Experiment conducted on one RTX3090 GPU takes around 18 hours for each class.
 <img src="./imgs/table1.png" width="1000px">  
 <img src="./imgs/table2.png" width="1000px">  
 <img src="./imgs/table3.png" width="1000px">  
+   
 * “Inf. Cost” denotes the relative inference time cost compared with NeRF. <br>
 * "Ne" of NeuSample denotes the sample number of the extracted sample field.  
 
