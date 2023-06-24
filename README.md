@@ -8,4 +8,4 @@ Paper: [NeuSample: Neural Sample Field for Efficient View Synthesis](https://arx
 ## Pipeline
 ![图片](/imgs/pipeline.png)
 ## Sample Field
-![图片](/imgs/samplefield.png)
+![图片](https://github.com/20throokie/JNeuSample/blob/master/imgs/samplefield.png =100x)
