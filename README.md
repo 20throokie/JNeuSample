@@ -18,7 +18,7 @@ Paper: [NeuSample: Neural Sample Field for Efficient View Synthesis](https://arx
 <img src="https://github.com/20throokie/JNeuSample/blob/master/imgs/table1.png" width="1000px">  
 <img src="https://github.com/20throokie/JNeuSample/blob/master/imgs/table2.png" width="1000px">  
 <img src="https://github.com/20throokie/JNeuSample/blob/master/imgs/table3.png" width="1000px">  
-* “Inf. Cost” denotes the relative inference cost compared with NeRF, i.e. time for rendering one image which is measured on one RTX3090 GPU.  
+* “Inf. Cost” denotes the relative inference cost compared with NeRF, i.e. time for rendering one image which is measured on one RTX3090 GPU.  <br>
 * "Ne" of NeuSample denotes the sample number of the extracted sample field.  
 
 
