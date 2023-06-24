@@ -21,10 +21,13 @@ mpirun -np 4 python main.py --stage train --obj_class lego
 ```
 Some models are provided in folder **pretrained**
 ## Comparison
+Experiment conducted on one RTX3090 GPU takes around 18 hours for each class.  
+
+  
 <img src="./imgs/table1.png" width="1000px">  
 <img src="./imgs/table2.png" width="1000px">  
 <img src="./imgs/table3.png" width="1000px">  
-* “Inf. Cost” denotes the relative inference cost compared with NeRF, i.e. time for rendering one image measured on one RTX3090 GPU.  <br>
+* “Inf. Cost” denotes the relative inference time cost compared with NeRF. <br>
 * "Ne" of NeuSample denotes the sample number of the extracted sample field.  
 
 ***   
