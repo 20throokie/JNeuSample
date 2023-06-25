@@ -160,7 +160,7 @@ Dataset Realistic Synthetic 360° tested.
   <td align="center" valign="center">23.43</td>
   <td align="center" valign="center"><b>24.09</b></td>
   <td align="center" valign="center">0.0897</td>
-  <td align="center" valign="center"><b>0.9000</b></td>
+  <td align="center" valign="center"><b>0.0900</b></td>
   <td align="center" valign="center"><b>0.133</b></td>
   <td align="center" valign="center">0.141</td>
 </tr>
