@@ -12,7 +12,7 @@ Paper: [NeuSample: Neural Sample Field for Efficient View Synthesis](https://arx
 ![图片](/imgs/pipeline.png)
 ## Sample Field
 <p align = "center">
-<img src="./imgs/samplefield.png" width="600px" align="middle" />  
+<img src="./imgs/samplefield.png" width="550px" align="middle" />  
 </p>
 
 ## Training 
