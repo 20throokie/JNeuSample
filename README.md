@@ -178,7 +178,7 @@ Dataset Realistic Synthetic 360° tested.
   <td align="center" valign="center"><b>34.41</b></td>
   <td align="center" valign="center">33.63</td>
   <td align="center" valign="center"><b>0.966</b></td>
-  <td align="center" valign="center">0.972</td>
+  <td align="center" valign="center">0.959</td>
   <td align="center" valign="center"><b>0.067</b></td>
   <td align="center" valign="center">0.083</td>
 </tr>
