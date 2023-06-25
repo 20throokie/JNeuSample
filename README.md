@@ -25,13 +25,44 @@ Some models are provided in folder **pretrained**
 ## Comparison
 Experiment conducted on one RTX3090 GPU takes around 18 hours for each class.  
 
-  
-<img src="./imgs/table1.png" width="1000px">  
-<img src="./imgs/table2.png" width="1000px">  
-<img src="./imgs/table3.png" width="1000px">  
+<table border="1" width="1200px" cellspacing="20">
+<tr>
+  <th rowspan="2" align="center" valign="center">Class</th>
+  <th colspan="2" align="center" valign="center">PSNR</th>
+  <th colspan="2" align="center" valign="center">SSIM</th>
+  <th colspan="2" align="center" valign="center">LPIPS</th>
+</tr>
+<tr>
+  <td align="center" valign="center">Paper</td>
+  <td align="center" valign="center">This Code</td>
+  <td align="center" valign="center">Paper</td>
+  <td align="center" valign="center">This Code</td>
+  <td align="center" valign="center">Paper</td>
+  <td align="center" valign="center">This Code</td>
+</tr>
+<tr>
+  <td align="center" valign="center">Chair</td>
+  <td align="center" valign="center">33.02</td>
+  <td align="center" valign="center><b>32.46</b></td>
+  <td align="center" valign="center">**0.968**</td>
+  <td align="center" valign="center">0.961</td>
+  <td align="center" valign="center">**0.045**</td>
+  <td align="center" valign="center">0.051</td>
+</tr>
+<tr>
+  <td align="center" valign="center">Drums</td>
+  <td align="center" valign="center">24.99</td>
+  <td align="center" valign="center">25.94</td>
+  <td align="center" valign="center">0.924</td>
+  <td align="center" valign="center">0.928</td>
+  <td align="center" valign="center">0.091</td>
+  <td align="center" valign="center">0.093</td>
+</tr>
+
+</table>
+
    
-* “Inf. Cost” denotes the relative inference time cost compared with NeRF. <br>
-* "Ne" of NeuSample denotes the sample number of the extracted sample field.  
+
 
   
 ***   
