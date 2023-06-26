@@ -150,9 +150,6 @@ def evaluate(model, Val_Loader, iter, logger, args):
     model.render_params = dict(alpha_noise_std=0, inv_depth=False, white_bkgd=True, max_rays_num=1024*4,)
 
     for i, data in enumerate(Val_Loader):
-        # temp = np.array(data['rays_color'].reshape(800,800,3)*255).astype(np.int)
-        # plt.imshow(temp)
-        # plt.show()
 
         with jt.no_grad():
             start_time = time.clock()
@@ -199,7 +196,6 @@ def fine_tune(logger, args):
     iter = 0
     best_psnr = 0
     fixed_para = [para for name, para in model.named_parameters() if name not in ['sample_field.dist_out.weight', 'sample_field.dist_out.bias']]
-    #optimizer = jt.optim.Adam(model.parameters(), lr=5e-5, betas=(0.9, 0.999))
     optimizer = jt.optim.Adam([{'params':fixed_para},
                                {'params':model.sample_field.parameters(), 'lr':5e-4},
                               ], lr=5e-5, betas=(0.9, 0.999))
@@ -262,9 +258,6 @@ def test2(logger, args):
     time_cost = 0
 
     for i, data in enumerate(test_loader):
-        # temp = np.array(data['rays_color'].reshape(800,800,3)*255).astype(np.int)
-        # plt.imshow(temp)
-        # plt.show()
 
         with jt.no_grad():
             start_time = time.time()
