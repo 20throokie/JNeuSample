@@ -24,7 +24,8 @@ mpirun -np 4 python main.py --stage train --obj_class lego
 Some models are provided in folder **pretrained**
 ## Comparison
 Experiment conducted on one RTX3090 GPU takes around 18 hours for each class.  
-Dataset Realistic Synthetic 360° tested.
+Dataset Realistic Synthetic 360° tested.  
+For the sake of training time, epochs were limited from 200 to 100, still, reasonable results produced.
 <h4>NeuSample(N=192)</h4>
 <table border="1" width="1000px" cellspacing="20">
 <tr>
