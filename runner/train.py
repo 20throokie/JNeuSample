@@ -98,7 +98,7 @@ def train_config(args):
 
 
 # start training
-def traindetector(logger, args):
+def trainrenderer(logger, args):
     model, train_loader, val_loader, optimizer, scheduler, epochnum = train_config(args)
     iter = 0
     best_psnr = 0

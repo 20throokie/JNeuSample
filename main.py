@@ -5,7 +5,7 @@ import jittor as jt
 import logging
 import time
 from utils.utils import set_random_seed
-from runner.train import traindetector, fine_tune, test2
+from runner.train import trainrenderer, fine_tune, test2
 from runner.test import test
 
 CLASSES = ['chair', 'drums', 'ficus', 'hotdog', 'lego', 'materials', 'mic', 'ship']
@@ -41,7 +41,7 @@ def main():
     logger.addHandler(console)
 
     if args.stage == 'train':
-        traindetector(logger, args)
+        trainrenderer(logger, args)
     elif args.stage == 'test':
         test(logger, args)
     elif args.stage == 'fine_tune':
